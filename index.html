@@ -1,106 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Andy Xu</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Andy Xu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
 
-  <style>
-    body {
-      font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: calc(10px + 0.33vw);
-      -webkit-font-smoothing: antialiased;
-      padding: 5vh 10vw;
-      color: #121314;
-    }
+    <style>
+      body {
+        font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: calc(10px + 0.33vw);
+        -webkit-font-smoothing: antialiased;
+        padding: 5vh 10vw;
+        color: #121314;
+      }
 
-    body i {
-      font-family:'FontAwesome' !important;
-      font-size: calc(40px + 0.33vw);
-      font-style: normal;
-    }
+      body i {
+        font-family: "FontAwesome" !important;
+        font-size: calc(40px + 0.33vw);
+        font-style: normal;
+      }
 
-    h1 {
-      font-size: 4.5em;
-      font-weight: 500;
-      margin-bottom: 0;
-    }
+      h1 {
+        font-size: 4.5em;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
 
-    p {
-      font-size: 1.6em;
-      font-weight: 300;
-      line-height: 1.4;
-      max-width: 26em;
-    }
+      p {
+        font-size: 1.6em;
+        font-weight: 300;
+        line-height: 1.4;
+        max-width: 26em;
+      }
 
-    a {
-      text-decoration: none;
-      color: #121314;
-      position: relative;
-    }
+      a {
+        text-decoration: none;
+        color: #121314;
+        position: relative;
+      }
 
-    .link:after {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 60%;
-      left: -0.1em;
-      right: -0.1em;
-      bottom: 0;
-      transition: top 200ms cubic-bezier(0, .8, .13, 1);
-      background-color: rgba(79,192,141,0.5);
-    }
+      .link:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 60%;
+        left: -0.1em;
+        right: -0.1em;
+        bottom: 0;
+        transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+        background-color: rgba(79, 192, 141, 0.5);
+      }
 
-    .link:hover:after {
-      top: 0%;
-    }
+      .link:hover:after {
+        top: 0%;
+      }
 
-    .icon {
-      font-size: 32px;
-      width: 45px;
-      height: 45px;
-      padding: 10px;
-      border-radius: 50%;
+      .icon {
+        font-size: 32px;
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50%;
 
-      vertical-align: middle;
-      text-align: center;
-      display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
 
-      -moz-transition: all .2s ease-in;
-      -o-transition: all .2s ease-in;
-      -webkit-transition: all .2s ease-in;
-      transition: all .2s ease-in;
-      background: #ffffff;
-    }
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        background: #ffffff;
+      }
 
-    .icon:hover {
-      background: rgba(79,192,141,0.5);
-    }
-
-  </style>
-</head>
-<body>
-  <h1>Hello.</h1>
-  <p style="font-weight:500; font-size:2.2em">
-    My name is Andy Xu.
-  </p>
-  <p>
-    I am a undergraduate studying computer science at Northwestern University.
-    My past projects can be found on
-    <a href="https://everthings.github.io/" class = "link" target="_blank">GitHub</a>.
-  </p>
-  <p>
-    Outside of programming, I love soccer freestyling, cold-showers, and omelettes.
-  </p>
-  <p style="font-weight:500; font-size:2.2em">
-    Social.
-  </p>
-  <a href="https://everthings.github.io/" class="icon" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-  <a href="https://www.linkedin.com/in/andy-xu-548942162/" class="icon" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-  <a href="mailto:andyx@u.northwestern.edu" class="icon" target="_blank"><i class="far fa-envelope" title="Email"></i></a>
-  <a href="https://pdfhost.io/v/gsJ8+a4k_AndysResume_v1pdf.pdf" class="icon" target="_blank" title="Resume"><i class="fas fa-file"></i></a>
-</body>
+      .icon:hover {
+        background: rgba(79, 192, 141, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello.</h1>
+    <p style="font-weight: 500; font-size: 2.2em">My name is Andy Xu.</p>
+    <p>
+      I am a undergraduate studying computer science at Northwestern University.
+      My past projects can be found on
+      <a href="https://everthings.github.io/" class="link" target="_blank"
+        >GitHub</a
+      >.
+    </p>
+    <p>
+      Outside of programming, I love soccer freestyling, cold-showers, and
+      making omelettes.
+    </p>
+    <p style="font-weight: 500; font-size: 2.2em; margin-bottom: 0.5rem">
+      Social.
+    </p>
+    <a
+      href="https://everthings.github.io/"
+      class="icon"
+      target="_blank"
+      title="GitHub"
+      ><i class="fab fa-github"></i
+    ></a>
+    <!-- <a href="https://www.linkedin.com/in/andy-xu-548942162/" class="icon" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    <a href="mailto:andyx@u.northwestern.edu" class="icon" target="_blank"
+      ><i class="far fa-envelope" title="Email"></i
+    ></a>
+    <a
+      href="https://pdfhost.io/v/xFwNn2445_Andy_Xu.pdf"
+      class="icon"
+      target="_blank"
+      title="Resume"
+      ><i class="fas fa-file"></i
+    ></a>
+  </body>
 </html>
